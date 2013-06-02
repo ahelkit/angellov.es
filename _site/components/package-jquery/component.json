@@ -1,0 +1,8 @@
+{
+  "name": "package-jquery",
+  "version": "1.7.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maccman/package-jquery.git"
+  }
+}
