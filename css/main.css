@@ -10,37 +10,47 @@ span {
 }
 
 a {
-  color: #444;
-  font-size: 24px;
+  color: #FF1477;
+  text-decoration: underline;
 }
 
 a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-h1, h2 {
-  margin-bottom: 0px;
-  text-transform: uppercase;
+  color: #63D0CA;
 }
 
 h1 {
-  font-size: 60px;
-  font-weight: 700;
+  font-size: 3em;
   margin-top: 20px;
 }
 
 h2 {
   font-size: 30px;
   margin: 10px 0px 5px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.4em;
+  line-height: 1.3em;
+  margin-top: 0px;
+}
+
+h1, h3 {
+  font-weight: 700;
 }
 
 li {
-  line-height: 30px;
+  line-height: 20px;
+  font-size: 16px;
 }
 
 ul {
   padding-left: 0px;
+  list-style-type: none;
+}
+
+.container{
+  height: 780px;
 }
 
 #backtotop {
@@ -245,37 +255,36 @@ right: -60px;
   margin-top: 10px;
 }
 
-.container{
-  height: 741px;
-}
-
 #life {
   background-image: url(/img/angel_ah.jpg);
   background-repeat:no-repeat;
   background-size: cover;
   width: 100%;
+  text-align: left;
+}
+
+#life .subheader {
+  text-align: center;
 }
 
 #life h1 {
   margin-bottom: 2px;
 }
 
-.firstName,
-.lastName {
-  text-align: left;
-  margin: 0px 0px 10px 0px;
+#life h4 {
+  text-transform: uppercase;
+  margin-bottom: 0em;
 }
 
-.firstName span,
-.lastName span {
-  font-size: 14px;
-  font-style: italic;
+#life ul,
+#life p {
+  margin-top: 0em;
 }
 
 #life p {
   font-size: 16px;
   line-height: 20px;
-  margin: 0.8em 0;
+  margin: 0 0 0.8em;
   text-align: left;
 }
 
