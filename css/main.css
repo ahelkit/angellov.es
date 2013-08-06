@@ -231,30 +231,6 @@ right: -60px;
   font-size: 16px;
 }
 
-#quote {
-  background-image: url(/img/new_mex_pic.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#quote h1,
-#quote p {
-  color: #fff;
-  float: right;
-  text-align: right;
-}
-
-#quote h1 {
-  font-size: 80px;
-  line-height: 80px;
-  margin-top: 400px;
-}
-
-#quote p {
-  font-size: 30px;
-  margin-top: 10px;
-}
-
 #life {
   background-image: url(/img/angel_ah.jpg);
   background-repeat:no-repeat;
@@ -392,6 +368,30 @@ right: -60px;
   background-position: -360px -89px;
 }
 
+#quote {
+  background-image: url(/img/new_mex_pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#quote h1,
+#quote p {
+  color: #fff;
+  float: right;
+  text-align: right;
+}
+
+#quote h1 {
+  font-size: 80px;
+  line-height: 80px;
+  margin: 400px 0px 0px;
+  text-transform: uppercase;
+}
+
+#quote p {
+  font-size: 30px;
+  margin-top: 10px;
+}
 
 /*#bg2-1 {
   z-index: -1;
