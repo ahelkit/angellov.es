@@ -94,6 +94,12 @@ ul {
   margin-top: 200px;
 }
 
+.header h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
 .things, 
 .thing {
   font-family: 'cookie', cursive;
