@@ -26,6 +26,7 @@ h2 {
   font-size: 30px;
   margin: 10px 0px 5px;
   text-transform: uppercase;
+  text-align: left;
 }
 
 h3 {
@@ -327,6 +328,10 @@ p {
 
 #contact {
   background: #63D0CA;
+}
+
+#contact .container {
+  height: 370px;
 }
 
 #contact p {
