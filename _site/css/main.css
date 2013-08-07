@@ -49,6 +49,12 @@ ul {
   list-style-type: none;
 }
 
+p {
+  font-size: 17px;
+  line-height: 23px;
+  margin-top: 0px;
+}
+
 .container{
   height: 780px;
 }
@@ -204,6 +210,18 @@ ul {
   -webkit-filter: grayscale(0);
 } 
 */
+
+#work .container {
+  height: 2900px;
+}
+
+#work .worksections {
+  margin-bottom: 75px;
+}
+
+#work .workdescription {
+  text-align: left;
+}
 
 #random {
   background: #FDF571;
