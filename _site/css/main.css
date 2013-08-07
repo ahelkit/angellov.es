@@ -158,8 +158,8 @@ p {
 .navbar .container {
   height: 50px;
   text-transform: uppercase;
-  max-width: 1170px;
-  padding-top: 0px;
+  max-width: 960px;
+  padding-top: 10px;
 }
 
 .navbar .navbar-brand {
@@ -183,15 +183,12 @@ p {
 }
 
 .navbar .nav {
-  float: none;
-  width: 678px;
-  margin: 0 auto;
-  display: block;
+  float: right;
 }
 
 .nav li {
   line-height: 15px;
-  padding: 1.5% 2%;
+  padding: 1.5% 0;
 }
 
 .navbar .nav > li > a {
