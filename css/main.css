@@ -178,6 +178,10 @@ p {
   font-size: 18px;
 }
 
+.navbar .navbar-brand:hover {
+  color: #FF1477;
+}
+
 .navbar .navbar-brand img {
   max-width: 30px;
   padding-right: 10px;
