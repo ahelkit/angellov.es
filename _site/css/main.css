@@ -242,6 +242,7 @@ p {
 
 #work .worksections img {
   max-width: 600px;
+  padding-top: 17px;
 }
 
 #work .workdescription {
