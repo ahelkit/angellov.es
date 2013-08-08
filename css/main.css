@@ -352,7 +352,7 @@ p {
 }
 
 #contact ul {
-  width: 500px;
+  width: 512px;
   margin: 0 auto;
 }
 
@@ -365,46 +365,76 @@ p {
 #contact .twitter,
 #contact .github,
 #contact .linkedin,
+#contact .dribbble,
+#contact .instagram,
+#contact .flickr,
 #contact .pinterest {
   background: url('/img/social_sprite.png') no-repeat;
   display: block;
-  width: 90px;
-  height: 86px;
+  background-size: 427px;
+  width: 54px;
+  height: 42px;
+  overflow: hidden;
 }
 
 #contact .mail:hover {
-  background-position: 0px -89px;
+  background-position: 0px 0px;
 }
 
 #contact .twitter {
-  background-position: -90px 0px;
+  background-position: -54px 0px;
 }
 
 #contact .twitter:hover {
-  background-position: -90px -89px;
+  background-position: -54px -42px;
 }
 
 #contact .github {
-  background-position: -180px 0px;
+  background-position: -108px 0px;
 }
 
 #contact .github:hover {
-  background-position: -180px -89px;
+  background-position: -108px -42px;
 }
 
 #contact .linkedin {
-  background-position: -270px 0px;
+  background-position: -162px 0px;
 }
 
 #contact .linkedin:hover {
-  background-position: -270px -89px;
+  background-position: -162px -42px;
 }
+
+#contact .dribbble{
+  background-position: -216px 0px;
+}
+
+#contact .dribbble:hover {
+  background-position: -216px -42px;
+}
+
+#contact .instagram {
+  background-position: -270px 0px;
+}
+
+#contact .instagram:hover {
+  background-position: -270px -42px;
+}
+
+#contact .flickr {
+  background-position: -324px 0px;
+}
+
+#contact .flickr:hover {
+  background-position: -324px -42px;
+}
+
 #contact .pinterest {
-  background-position: -360px 0px;
+  background-position: -378px 0px;
 }
 
 #contact .pinterest:hover {
-  background-position: -360px -89px;
+  background-position: -378px -42px;
 }
 
 #quote {
