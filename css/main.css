@@ -240,6 +240,10 @@ p {
   margin-bottom: 75px;
 }
 
+#work .worksections img {
+  max-width: 600px;
+}
+
 #work .workdescription {
   text-align: left;
 }
@@ -265,7 +269,9 @@ p {
 }
 
 #life h1 {
-  margin-bottom: 2px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  line-height: 44px;
 }
 
 #life h4 {
