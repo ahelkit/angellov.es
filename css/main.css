@@ -218,27 +218,8 @@ p {
   border: 3px solid #000;
 }
 
-/* #work .work {
-  margin-top: 20px;
-}
-
-#work .workThumb {
-  height: 200px;
-  width: 300px;
-  background: #444444;
-  filter: url(filters.svg#grayscale);  Firefox 3.5+ 
-  filter: gray; 
-  -webkit-filter: grayscale(1); 
-}
-
-#work .workThumb:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-} 
-*/
-
 #work .container {
-  height: 2890px;
+  height: 3350px;
 }
 
 #work .worksections {
