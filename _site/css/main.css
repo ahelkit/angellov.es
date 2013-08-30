@@ -494,25 +494,7 @@ footer span {
   line-height: 1.5em;
 }
 
-/*#bg2-1 {
-  z-index: -1;
-  position: absolute;
-  top: 2300px;
-}
-
-#parallax-bg3, 
-#parallax-bg2 {
-  max-width: none;
-}
-
-#bg3-1 {
-  left: 0px;
-}
-
-#bg2-1 {
-  left: 25px;
-}
-*/
+/*........Media Queries will go here.......*/
 
 /*........blog.......*/
 .wrap {
