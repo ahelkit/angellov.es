@@ -521,17 +521,99 @@ footer span {
     background-color: rgba(134, 226, 206,.8);
   }
 
-    #work .worksections img {
+  #work .worksections img {
     max-width: 90%;
+  }
+
+  #life h1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  #contact p {
+    font-size: 26px;
+    line-height: 30px;
   }
 
 }
 
 @media (max-width: 767px) {
-/*  #work .worksections img {
-    max-width: 80%;
+
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
   }
-}*/
+
+  .header .container {
+    height: 400px;
+    padding-top: 0px;
+  }
+
+  .header img {
+    margin-top: 100px;
+  }
+
+  .header img {
+    height: 46px;
+  }
+
+  .header h1 {
+    font-size: 40px;
+  }
+
+  .things {
+    font-size: 36px;
+    width: 300px;
+    margin: 0px auto;
+  }
+
+  #work .container {
+    height: 3487px;
+  }
+
+  #work .workdescription {
+    padding: 0px 20px;
+  }
+
+  #random .container {
+    height: 3100px;
+  }
+
+  #random h2 {
+    text-align: center;
+  }
+
+  #random .workThumb img {
+    max-width: 220px;
+    padding-bottom: 20px;
+  }
+
+  #random .work .workThumb figcaption{
+    margin: -240px 0px 0px 90px; 
+  }
+
+  #life .container {
+    height: 1033px;
+    padding: 0px 20px;
+  }
+
+  #quote .container {
+    height: 500px;
+    padding-top: 0px;
+  }
+
+  #quote h1, 
+  #quote p {
+    padding: 0px 20px;
+  }
+
+  #quote h1 {
+    font-size: 33px;
+    line-height: 45px;
+    margin: 230px 0px 0px;
+  }
+
+}
 
 
 /*........blog.......*/
