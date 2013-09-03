@@ -521,8 +521,17 @@ footer span {
     background-color: rgba(134, 226, 206,.8);
   }
 
+    #work .worksections img {
+    max-width: 90%;
+  }
+
 }
 
+@media (max-width: 767px) {
+/*  #work .worksections img {
+    max-width: 80%;
+  }
+}*/
 
 
 /*........blog.......*/
