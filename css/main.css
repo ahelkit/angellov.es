@@ -240,7 +240,7 @@ p {
 }
 
 #random .container {
-  height: 880px;
+  height: 1050px;
 }
 
 #random .work {
@@ -250,8 +250,8 @@ p {
 #random .work .workThumb figcaption {
   position: absolute;
   display: block;
-  width: 220px;
-  height: 220px;
+  width: 270px;
+  height: 270px;
   background: rgba(255,20,119,.9);
   padding: 1em;
   color: #fff;
@@ -267,7 +267,7 @@ p {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: -220px;
+  margin-top: -270px;
 }
 
 #random .work .workThumb:hover figcaption {
