@@ -56,8 +56,8 @@ p {
 }
 
 .container{
-  height: 780px;
-  padding-top: 75px;
+  position: relative;
+  top: 32%;
 }
 
 #backtotop {
@@ -84,7 +84,8 @@ p {
   border-bottom: 55px solid rgba(134, 226, 206,.8);
 }
 
-#backtotop p {
+#backtotop p 
+{
   font-size: 14px;
   margin-left: -10px;
   margin-top: 26px;
@@ -99,7 +100,6 @@ p {
 }
 
 .header img {
-  margin-top: 200px;
   height: 66px;
 }
 

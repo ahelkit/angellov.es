@@ -13,6 +13,9 @@ $("body").on("click","#backtotop",function(){
   },1000);
 });
 
+//set container height to window height 
+$('.header').height(window.innerHeight);
+
 
 // adds class slotmachine to allow the slotmachine animation to happen.
 $('.things').addClass('slotmachine');
