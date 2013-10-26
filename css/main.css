@@ -81,7 +81,7 @@ p {
 }
 
 #backtotop:hover {
-    border-bottom: 55px solid rgba(134, 226, 206,.8);
+  border-bottom: 55px solid rgba(134, 226, 206,.8);
 }
 
 #backtotop p {
