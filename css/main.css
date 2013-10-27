@@ -218,10 +218,6 @@ p {
   border: 3px solid #000;
 }
 
-#work .container {
-  height: 3350px;
-}
-
 #work .worksections {
   margin-bottom: 75px;
 }
@@ -240,7 +236,7 @@ p {
 }
 
 #random .container {
-  height: 1050px;
+  padding: 75px 0px;
 }
 
 #random .work {
@@ -353,10 +349,6 @@ p {
 
 #contact {
   background: #63D0CA;
-}
-
-#contact .container {
-  height: 285px;
 }
 
 #contact p {
@@ -494,7 +486,7 @@ footer span {
   line-height: 1.5em;
 }
 
-/*........Media Queries will go here.......*/
+/*........Media Queries.......*/
 
 @media (min-width: 768px) and (max-width: 979px) {
 }
@@ -544,11 +536,6 @@ footer span {
     padding-left: 0px;
   }
 
-  .header .container {
-    height: 400px;
-    padding-top: 0px;
-  }
-
   .header img {
     margin-top: 100px;
   }
@@ -567,16 +554,8 @@ footer span {
     margin: 0px auto;
   }
 
-  #work .container {
-    height: 3487px;
-  }
-
   #work .workdescription {
     padding: 0px 20px;
-  }
-
-  #random .container {
-    height: 3100px;
   }
 
   #random h2 {
@@ -589,17 +568,7 @@ footer span {
   }
 
   #random .work .workThumb figcaption{
-    margin: -240px 0px 0px 90px; 
-  }
-
-  #life .container {
-    height: 1033px;
-    padding: 0px 20px;
-  }
-
-  #quote .container {
-    height: 500px;
-    padding-top: 0px;
+    display: none;
   }
 
   #quote h1, 
