@@ -51,7 +51,7 @@ $('.carousel').carousel('pause')
 
 //play audio file using howler.js
 var sound = new Howl({
-  urls: ['/audio/last_name.mp3']
+  urls: ['/audio/last_name_audio.mp3', '/audio/last_name_audio.ogg']
 });
 
 
