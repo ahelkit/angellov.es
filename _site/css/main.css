@@ -526,6 +526,10 @@ footer span {
     background-color: rgba(134, 226, 206,.8);
   }
 
+  #work .workdescription {
+    padding: 0px 20px 20px;
+  }
+
   #work .worksections img {
     max-width: 90%;
   }
@@ -576,10 +580,6 @@ footer span {
     font-size: 36px;
     width: 300px;
     margin: 0px auto;
-  }
-
-  #work .workdescription {
-    padding: 0px 20px;
   }
 
   #random h2 {
