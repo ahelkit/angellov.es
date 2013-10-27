@@ -579,6 +579,11 @@ footer span {
 
   #random h2 {
     text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #random .work {
+    margin-top: 0px;
   }
 
   #random .workThumb img {
@@ -597,8 +602,14 @@ footer span {
     margin: 0px auto;
   }
 
+
   #contact .container {
     padding-bottom: 65px;
+  }
+
+  #contact p {
+    font-size: 24px;
+    padding: 0px 20px;
   }
 
   #contact ul {
@@ -616,7 +627,7 @@ footer span {
 
   #quote h1 {
     font-size: 33px;
-    line-height: 45px;
+    line-height: 38px;
     margin: 230px 0px 0px;
   }
 
