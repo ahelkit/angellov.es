@@ -294,6 +294,10 @@ p {
   text-align: center;
 }
 
+#life a.lastname {
+  cursor: pointer;
+}
+
 #life h4 {
   text-transform: uppercase;
   margin-bottom: 0em;

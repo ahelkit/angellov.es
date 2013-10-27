@@ -49,6 +49,11 @@ $(window).on('scroll', function(){
 //carousel 
 $('.carousel').carousel('pause')
 
+//play audio file using howler.js
+var sound = new Howl({
+  urls: ['/audio/last_name.mp3']
+});
+
 
 
 
