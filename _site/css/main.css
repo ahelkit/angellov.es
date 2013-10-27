@@ -287,22 +287,11 @@ p {
 }
 
 #life {
-  background-image: url(/img/angel_ah.jpg);
-  background-repeat:no-repeat;
-  background-size: cover;
-  width: 100%;
   text-align: left;
 }
 
 #life .subheader {
   text-align: center;
-}
-
-#life h1 {
-  margin: 0px 0px 15px;
-  font-weight: 500;
-  line-height: 45px;
-  font-size: 40px;
 }
 
 #life h4 {
@@ -594,8 +583,6 @@ footer span {
     margin: 0px auto;
   }
 
-
-
   #random h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -619,6 +606,13 @@ footer span {
     text-align: center;
     width: 220px;
     margin: 0px auto;
+  }
+
+  #life img {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    display: block;
   }
 
   #contact .container {
