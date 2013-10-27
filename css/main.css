@@ -499,9 +499,6 @@ footer span {
 
 /*........Media Queries.......*/
 
-@media (min-width: 768px) and (max-width: 979px) {
-}
-
 @media (max-width: 970px) {
 
   .navbar .btn-navbar .icon-bar{
@@ -531,6 +528,12 @@ footer span {
   #random .work .workThumb .caption {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  #life {
+    padding: 0px 20px;
+    background-image: none;
+    width: inherit;
   }
 
   #life h1 {
@@ -592,6 +595,14 @@ footer span {
     text-align: center;
     width: 220px;
     margin: 0px auto;
+  }
+
+  #contact ul {
+    width: 256px;
+  }
+
+  #contact li {
+    margin-bottom: 10px;
   }
 
   #quote h1, 
