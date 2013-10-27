@@ -526,10 +526,6 @@ footer span {
     background-color: rgba(134, 226, 206,.8);
   }
 
-  #work .workdescription {
-    padding: 0px 20px 20px;
-  }
-
   #work .worksections img {
     max-width: 90%;
   }
@@ -553,6 +549,14 @@ footer span {
   #contact p {
     font-size: 26px;
     line-height: 30px;
+  }
+
+}
+
+@media (max-width: 845px) {
+    #work .workdescription {
+    max-width: 90%;
+    margin: 0 auto 20px;
   }
 
 }
@@ -581,6 +585,8 @@ footer span {
     width: 300px;
     margin: 0px auto;
   }
+
+
 
   #random h2 {
     text-align: center;
