@@ -285,7 +285,7 @@ p {
 }
 
 #life h1 {
-  margin-bottom: 15px;
+  margin: 0px 0px 15px;
   font-weight: 500;
   line-height: 45px;
   font-size: 40px;
