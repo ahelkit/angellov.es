@@ -139,7 +139,9 @@ p {
 
 .things.slotmachine div {
   top: -1380px;
+  transition: top 1s ease 0s;
   -webkit-transition: top 1s ease 0s;
+
 }
 
 .thing {
