@@ -597,6 +597,10 @@ footer span {
     margin: 0px auto;
   }
 
+  #contact .container {
+    padding-bottom: 65px;
+  }
+
   #contact ul {
     width: 256px;
   }
