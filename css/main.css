@@ -101,6 +101,10 @@ p {
   background-image: -o-radial-gradient(center center, circle , #B8E8D7, #A5E4D1, #9AE1CE);
 }
 
+.header .container {
+  padding: 0px 0px;
+}
+
 .header img {
   height: 66px;
 }
