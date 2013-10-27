@@ -245,11 +245,15 @@ p {
   margin-top: 20px;
 }
 
-#random .work .workThumb figcaption {
+#random .work .workThumb {
+  position: relative;
+}
+
+#random .work .workThumb .caption {
   position: absolute;
   display: block;
-  width: 270px;
-  height: 270px;
+  width: 100%;
+  height: 100%;
   background: rgba(255,20,119,.9);
   padding: 1em;
   color: #fff;
@@ -265,10 +269,11 @@ p {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: -270px;
+  top: 0px;
+  pointer-events:none;
 }
 
-#random .work .workThumb:hover figcaption {
+#random .work .workThumb:hover .caption {
   opacity:1;
 }
 
@@ -519,6 +524,11 @@ footer span {
     max-width: 90%;
   }
 
+  #random .work .workThumb .caption {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
   #life h1 {
     font-size: 26px;
     line-height: 30px;
@@ -569,8 +579,15 @@ footer span {
     padding-bottom: 20px;
   }
 
-  #random .work .workThumb figcaption{
-    display: none;
+  #random .work .workThumb .caption{
+    opacity: 1;
+    background-color: transparent;
+    position: relative;
+    color: #000000;
+    padding: 0px 0px 30px;
+    text-align: center;
+    width: 220px;
+    margin: 0px auto;
   }
 
   #quote h1, 
