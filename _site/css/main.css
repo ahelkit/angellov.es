@@ -234,7 +234,7 @@ p {
 
 #work .worksections img {
   max-width: 600px;
-  padding-top: 17px;
+  padding-top: 10px;
 }
 
 #work .workdescription {
@@ -601,7 +601,6 @@ footer span {
     width: 220px;
     margin: 0px auto;
   }
-
 
   #contact .container {
     padding-bottom: 65px;
