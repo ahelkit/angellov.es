@@ -12,11 +12,11 @@ span {
 
 a {
   color: #FF1477;
-  text-decoration: underline;
 }
 
 a:hover {
   color: #63D0CA;
+  text-decoration: none;
 }
 
 h1 {
@@ -227,7 +227,7 @@ p {
 }
 
 #work h2 {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #FF1477;
   margin-bottom: 20px;
 }
 
