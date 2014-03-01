@@ -139,8 +139,8 @@ p {
 
 .things.slotmachine div {
   top: -1380px;
-  transition: top 1s ease 0s;
-  -webkit-transition: top 1s ease 0s;
+  transition: top 2s ease 0s;
+  -webkit-transition: top 2s ease 0s;
 
 }
 
@@ -167,7 +167,7 @@ p {
 .navbar .container {
   height: 50px;
   text-transform: uppercase;
-  max-width: 960px;
+  max-width: 1190px;
   padding: 3px 0px 0px;
 }
 
