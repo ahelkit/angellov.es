@@ -227,7 +227,7 @@ p {
 }
 
 #work h2 {
-  border-bottom: 1px solid #FF1477;
+  border-bottom: 1px dotted #86E2CE;
   margin-bottom: 20px;
 }
 
@@ -556,6 +556,54 @@ footer span {
 
 }
 
+/*Resume*/
+
+div.resume {
+  text-align: left;
+}
+
+div.resume div.container {
+  padding-top: 0px;
+}
+
+div.resume p.goback {
+  margin: 1em 0 2em;
+}
+
+div.resume h2 {
+  border-bottom: 1px dotted #86E2CE;
+  margin-bottom: .5em;
+}
+
+div.resume h3 {
+  margin-bottom: 0px;
+}
+
+div.resume h4 {
+  margin: 0px;
+  font-weight: normal;
+}
+
+div.resume ul {
+  margin-top: 0px;
+}
+
+div.resume li {
+  margin-bottom: 2em;
+}
+
+div.resume ul li.education p {
+  margin-bottom: 0px; 
+}
+
+div.resume p.when {
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-top: 2px;
+}
+
+
 @media (max-width: 845px) {
     #work .workdescription {
     max-width: 90%;
@@ -655,125 +703,14 @@ footer span {
     margin-top: 5px;
   }
 
+  div.resume {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
-
-/*........blog.......*/
-.wrap {
-  background: url('http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/shattered.png');
-  margin: 30px auto 0px;
-  padding: 0px 15px;
-  width: 960px;
+@media (max-width: 551px) {
+  div.resume h1 {
+    font-size: 2em;
+  }
 }
-
-.main{
-  float: left;
-  display: block;
-  width: 960px;
-  background: #fff;
-}
-
-.blog .subheader {
-  margin: 40px auto;
-}
-
-.contentSmall {
-  float: left;
-  display: block;
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
-  width: 600px;
-}
-
-.post {
-  text-align: left;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.post h2 {
-  font-weight: 600;
-  font-size: 26px;
-}
-
-.blogBio {
-  margin-top: 30px;
-}
-
-.blogBio p {
-  padding: 5px 40px 10px;
-}
-
-.posts .meta a {
-  font-size: 14px;
-  color: red;
-}
-
-.date {
-  background: yellow;
-}
-
-.sidebar {
-  background: #9AE1CE;
-  float: right;
-  display: block;
-  width: 300px;
-  margin: 60px 0px 0px;
-  padding: 0px 0px 30px;
-}
-
-.sidebar .social {
-  margin-left: 30px;
-}
-
-.sidebar .social li {
-  float: left;
-  margin-right: 5px;
-}
-
-.social .mailsm,
-.social .twittersm,
-.social .githubsm,
-.social .linkedinsm,
-.social .pinterestsm {
-  background: url('/img/social_sprite_small.png') no-repeat;
-  display: block;
-  width: 45px;
-  height: 45px;
-}
-
-.social .mailsm:hover {
-  background-position: 0px -44px;
-}
-
-.social .twittersm {
-  background-position: -45px 0px;
-}
-
-.social .twittersm:hover {
-  background-position: -45px -44px;
-}
-
-.social .githubsm {
-  background-position: -90px 0px;
-}
-
-.social .githubsm:hover {
-  background-position: -90px -44px;
-}
-
-.social .linkedinsm {
-  background-position: -135px 0px;
-}
-
-.social .linkedinsm:hover {
-  background-position: -135px -44px;
-}
-.social .pinterestsm {
-  background-position: -180px 0px;
-}
-
-.social .pinterestsm:hover {
-  background-position: -180px -44px;
-}
-
