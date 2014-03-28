@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot');
+  src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.woff') format('woff'),
+      url('../fonts/icomoon.ttf') format('truetype'),
+      url('../fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #000;
@@ -493,7 +504,7 @@ footer p {
 
 footer span {
   font-family:'cookie', cursive;
-  font-size: 1.3em;
+  font-size: 1.25em;
   line-height: 1.5em;
 }
 
@@ -567,18 +578,32 @@ div.resume div.container {
 }
 
 div.resume p.goback {
-  margin: 1em 0 2em;
+  margin: 1em 0;
+}
+
+div.resume img {
+  width: 54px;
+  float: left;
+  margin-right: 13px;
+}
+
+div.resume h1 {
+  font-size: 25px;
+  line-height: 26px;
+  float: left;
+  margin-top: 4px;
 }
 
 div.resume h2 {
+  font-size: 20px;
   border-bottom: 1px dotted #86E2CE;
   margin-bottom: .5em;
 }
 
 div.resume h3 {
+  font-size: 18px;
   margin-bottom: 0px;
 }
-
 div.resume h4 {
   margin: 0px;
   font-weight: normal;
@@ -592,7 +617,40 @@ div.resume li {
   margin-bottom: 2em;
 }
 
-div.resume ul li.education p {
+div.resume .objective {
+  clear: both;
+}
+
+div.resume .icons li {
+  margin-bottom: 1em;
+}
+
+div.resume .icons-print:before {
+    content: '\e602';
+    font-family: 'icomoon';
+    speak: none;
+}
+
+div.resume .icons-portfolio:before {
+    content: '\e603';
+    font-family: 'icomoon';
+    speak: none;
+}
+
+div.resume .icons-twitter:before {
+    content: '\e605';
+    font-family: 'icomoon';
+    speak: none;
+}
+
+div.resume .icons-mail:before {
+    content: '\e601';
+    font-family: 'icomoon';
+    speak: none;
+}
+
+div.resume ul li.education p,
+div.resume ul li.awards p {
   margin-bottom: 0px; 
 }
 
@@ -603,9 +661,27 @@ div.resume p.when {
   margin-top: 2px;
 }
 
+div.resume .references {
+  font-family: "cookie", cursive;
+  font-size: 20px;
+}
 
-@media (max-width: 845px) {
-    #work .workdescription {
+@media (max-width: 1000px) {
+  div.resume .icons li {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 980px) {
+  div.resume h1 {
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 7px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 845px) {
+  #work .workdescription {
     max-width: 90%;
     margin: 0 auto 20px;
   }
@@ -707,10 +783,8 @@ div.resume p.when {
     width: 90%;
     margin: 0 auto;
   }
-}
 
-@media (max-width: 551px) {
-  div.resume h1 {
-    font-size: 2em;
+  div.resume .icons li{
+    font-size: 16px;
   }
 }
