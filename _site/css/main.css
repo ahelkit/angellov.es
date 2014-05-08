@@ -679,8 +679,11 @@ div.casestudy .webimage {
     line-height: 20px;
   }
 
-  #life {
+  #life, #work {
     padding: 0px 20px;
+  }
+
+  #life {
     background-image: none;
     width: inherit;
   }
@@ -721,9 +724,9 @@ div.casestudy .webimage {
 
 @media (max-width: 767px) {
 
-  body div.resume {
-    margin-right: 0px;
-    margin-left: 0px;
+  body {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .header img {
@@ -816,7 +819,7 @@ div.casestudy .webimage {
   }
 
   div.resume .icons li{
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
