@@ -609,6 +609,10 @@ div.resume .references {
 
 /*........Casestudy.......*/
 
+#navbar.casestudy {
+  position: fixed;
+}
+
 div.casestudy h2 {
   border-bottom: 1px dotted #86E2CE;
   margin-bottom: 20px;
@@ -624,10 +628,6 @@ div.casestudy h4,
 div.casestudy a.csurl {
   text-align: left;
   display: block;
-}
-
-div.casestudy .container {
-  padding-top: 35px;
 }
 
 div.casestudy img.cslogos {

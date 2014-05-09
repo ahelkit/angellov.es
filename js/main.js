@@ -54,6 +54,3 @@ var sound = new Howl({
   urls: ['/audio/last_name_audio.mp3', '/audio/last_name_audio.ogg']
 });
 
-
-
-
