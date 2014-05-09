@@ -620,8 +620,10 @@ div.casestudy h4 {
 }
 
 div.casestudy p,
-div.casestudy h4 {
+div.casestudy h4,
+div.casestudy a.csurl {
   text-align: left;
+  display: block;
 }
 
 div.casestudy .container {
@@ -636,6 +638,10 @@ div.casestudy .webimage {
   width: 70%;
   margin: 30px auto;
   display: block;
+}
+
+div.casestudy .csgif {
+  width: 50%;
 }
 
 /*........Media Queries.......*/
@@ -825,7 +831,7 @@ div.casestudy .webimage {
   div.casestudy img.cslogos {
     width: 50%;
   }
-  
+
   div.casestudy .webimage {
     width: 100%;
   }
